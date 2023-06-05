@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.body{
+	background-color: #EBEDEE;
+}
+
+.header{
+	height: 50px;
+	width: 1879px;
+	background-color: #FACA72;
+	display: flex;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	position: relative;
+	/*padding: 10px 0px;*/
+}
+
+.header_items{
+	padding: 10px 50px;
+}
+
+.login_logo{
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #5D7723;
+}
+
+a:hover{
+	color: hotpink;
+}
+
+.store{
+	padding-left: 230px;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100px;
+	margin-top: 20px;
+
+}
+
+hr{
+	height: 0px;
+	width: 250px;
+	color: black;
+	margin-left: 815px;
+}
+
+.body{
+	display: flex;
+	margin-top: 14px;
+	position: relative;
+    z-index: 1;
+}
+
+.content{
+	height: 700px;
+	width: 500px;
+	margin: 20px 20px;
+	background-color: hotpink;
+	display: inline-block; 
+	border: 2px solid skyblue;
+
+}
+
+h3{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	margin: 23px 0px auto;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+img{
+	margin: 35px 25px;
+	height: 500px;
+}
+
+.learn{
+	text-decoration: underline;
+	color: white;
+	padding: 0 140px;
+	font-size: 25px;
+}
+
+.hover{
+	text-decoration: none;
+}
+
+.content:hover{
+	background-color: white;
+	color: skyblue;
+	transition: 1s ease;
+
+}
+
